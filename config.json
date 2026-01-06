@@ -1,36 +1,44 @@
 {
-    "java_versions": {
-        "8": {
-            "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jdk_x64_windows_hotspot_8u412b08.zip",
-            "dir_name": "java_8"
-        },
-        "21": {
-            "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.4%2B7/OpenJDK21U-jdk_x64_windows_hotspot_21.0.4_7.zip",
-            "dir_name": "java_21"
-        }
+  "config_version": "0.1",
+  
+  "java_versions": {
+    "8": {
+      "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jdk_x64_windows_hotspot_8u412b08.zip",
+      "dir_name": "java_8",
+      "version": "8u412"
     },
-    "minecraft_versions": {
-        "vanilla_1.21.11": {
-            "type": "vanilla",
-            "java_version": "21",
-            "url": "https://www.dropbox.com/scl/fi/f51a7dw8dwb7sgnzj60zh/vanila.0.1.zip?rlkey=zy5hc0ewv2ijmscfg6bul4518&st=r5j4idrj&dl=1",
-            "min_ram": 2048,
-            "max_ram": 4096,
-            "main_class": "net.minecraft.client.main.Main"
-        },
-        "forge_1.12.2": {
-            "type": "forge",
-            "java_version": "8",
-            "url": "https://www.dropbox.com/scl/fi/3q96st6c3q8pmrkeykih4/moded.0.1.zip?rlkey=8o3rel0khawi2z3145clcecv5&st=td4e16db&dl=1",
-            "min_ram": 3072,
-            "max_ram": 8192,
-            "main_class": "net.minecraft.launchwrapper.Launch",
-            "tweak_class": "net.minecraftforge.fml.common.launcher.FMLTweaker"
-        }
+    "21": {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.4%2B7/OpenJDK21U-jdk_x64_windows_hotspot_21.0.4_7.zip",
+      "dir_name": "java_21",
+      "version": "21.0.4"
     }
+  },
+  
+  "minecraft_versions": {
+    "vanilla_1.21.11": {
+      "name": "Vanilla 1.21.11",
+      "display_name": "vanilla 1.21.11",
+      "type": "vanilla",
+      "java_version": "21",
+      "url": "https://www.dropbox.com/scl/fi/f51a7dw8dwb7sgnzj60zh/vanila.0.1.zip?rlkey=zy5hc0ewv2ijmscfg6bul4518&st=134xov8m&dl=1",
+      "min_ram": 2048,
+      "max_ram": 4096,
+      "main_class": "net.minecraft.client.main.Main",
+      "version": "1.21.11",
+      "changelog": "Первоначальный релиз"
+    },
+    "forge_1.12.2": {
+      "name": "Forge 1.12.2",
+      "display_name": "forge 1.12.2", 
+      "type": "forge",
+      "java_version": "8",
+      "url": "https://www.dropbox.com/scl/fi/3q96st6c3q8pmrkeykih4/moded.0.1.zip?rlkey=8o3rel0khawi2z3145clcecv5&st=rjc6lsu6&dl=1",
+      "min_ram": 3072,
+      "max_ram": 8192,
+      "main_class": "net.minecraft.launchwrapper.Launch",
+      "tweak_class": "net.minecraftforge.fml.common.launcher.FMLTweaker",
+      "version": "1.12.2-14.23.5.2859",
+      "changelog": "Forge для модов 1.12.2"
+    }
+  }
 }
-
-
-
-
-
