@@ -1,5 +1,5 @@
 {
-  "config_version": "10.0.2",
+  "config_version": "10.0.3",
   
   "java_versions": {
     "8": {
@@ -32,7 +32,7 @@
       "display_name": "forge 1.12.2", 
       "type": "forge",
       "java_version": "8",
-      "url": "https://www.dropbox.com/scl/fi/mcjyhsq6q7z1ic87qemha/moded0.2.zip?rlkey=fl185npyxhs9yy4b9sr6dzgx8&st=oq6z8j0p&dl=1",
+      "url": "https://www.dropbox.com/scl/fi/mcjyhsq6q7z1ic87qemha/moded0.3.zip?rlkey=fl185npyxhs9yy4b9sr6dzgx8&st=xbpyiic6&dl=1",
       "min_ram": 3072,
       "max_ram": 8192,
       "main_class": "net.minecraft.launchwrapper.Launch",
@@ -42,6 +42,7 @@
     }
   }
 }
+
 
 
 
